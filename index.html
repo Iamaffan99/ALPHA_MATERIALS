@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <title>ALPHA_materials</title>
+
+    <!-- ==================== GOOGLE FONTS ==================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ==================== MAIN CSS ==================== -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- =========================================================
+         SIGN-UP GATE (shown before the site unlocks)
+    ========================================================== -->
+
+    <div id="gate" class="gate">
+
+        <div class="gate-scene">
+
+            <div class="gate-card" id="gateCard">
+
+                <div class="gate-ring"></div>
+                <div class="gate-ring gate-ring-2"></div>
+
+                <img
+                    src="assets/alpha-logo.jpg"
+                    alt="ALPHA Logo"
+                    class="gate-logo"
+                >
+
+                <label>ALPHA_materials</label>
+
+                <h2>
+                    Create your account<br>
+                    <em>to enter the library.</em>
+                </h2>
+
+                <p>
+                    Quick sign-up, then straight into
+                    notes, PYQs and sample papers.
+                </p>
+
+                <form id="gateForm">
+
+                    <input
+                        id="gateEmail"
+                        type="email"
+                        placeholder="Email address"
+                        autocomplete="email"
+                        required
+                    >
+                    <input
+                        id="gatePassword"
+                        type="text"
+                        placeholder="Password"
+                        autocomplete="Enter your password"
+                        required
+                    >
+                    <input
+                        id="gateName"
+                        type="text"
+                        placeholder="Full name"
+                        autocomplete="name"
+                        required
+                    >
+
+
+
+                    <select id="gateClass" required>
+                        <option value="" disabled selected>Select your Exam</option>
+                        <option value="Class 10">Class 10</option>
+                        <option value="Class 12">Class 12</option>
+                        <option value="JEE">JEE</option>
+                        <option value="IMUCET">IMUCET</option>
+                        <option value="TRADING">TRADING</option>
+                        <option value="PROGRAMMING LANGUAGE">PROGRAMMING LANGUAGE</option>
+                      
+                    </select>
+
+                    <button type="submit" class="btn gate-btn">
+                        Sign up &amp; Enter ↗
+                    </button>
+
+                </form>
+
+                <small class="gate-note">
+                    Stored on this device only — no spam.
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+         BACKGROUND GRID
+    ========================================================== -->
+
+    <div class="grid"></div>
+
+
+
+    <!-- =========================================================
+         AURORA GLOW (ambient depth behind hero / stats)
+    ========================================================== -->
+
+    <div class="aura" aria-hidden="true">
+        <span class="aura-blob aura-blob-1"></span>
+        <span class="aura-blob aura-blob-2"></span>
+    </div>
+
+
+
+    <!-- =========================================================
+         HEADER / NAVIGATION
+    ========================================================== -->
+
+    <header>
+
+        <a class="brand" href="#home">
+
+            <img
+                src="assets/alpha-logo.jpg"
+                alt="ALPHA Logo"
+            >
+
+            <span>
+                <b>ALPHA</b>
+                <small>_materials</small>
+            </span>
+
+        </a>
+
+        <nav>
+
+            <a href="#materials">Materials</a>
+
+            <a href="#gallery">Gallery</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================================================
+         MAIN CONTENT
+    ========================================================== -->
+
+    <main>
+
+
+
+        <!-- =====================================================
+             HERO SECTION
+        ====================================================== -->
+
+        <section id="home" class="hero">
+
+            <div>
+
+                <label>WELCOME TO THE ALPHA #5 </label>
+
+                <h1>
+                    Study smarter.<br>
+                    <em>Download faster.</em>
+                </h1>
+
+                <p>
+                    Chapter-wise notes, PYQs, sample papers,
+                    important questions, syllabus and formula
+                    sheets for Class 10 &amp; 12.
+                </p>
+
+                <a class="btn" href="#materials">
+                    Explore Materials ↗
+                </a>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="ring"></div>
+
+                <img
+                    src="assets/alpha-logo.jpg"
+                    alt="ALPHA Logo"
+                >
+
+                <b>LEARN • PRACTICE • GROW</b>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             STATS SECTION
+        ====================================================== -->
+
+        <section class="stats">
+
+            <div>
+                <b>X , XII</b>
+                Class
+            </div>
+
+            <div>
+                <b>competitive</b>
+                All types
+            </div>
+
+            <div>
+                <b> FINANCE</b>
+                Trading
+        
+            </div>
+
+            <div>
+                <b>50+</b>
+                Resources
+            </div>
+
+           
+
+        </section>
+
+
+
+        <!-- =====================================================
+             MATERIALS / LIBRARY SECTION
+        ====================================================== -->
+
+        <section id="materials" class="section">
+
+            <div class="head">
+
+                <div>
+
+                    <label>LIBRARY</label>
+
+                    <h2>Choose your Exam/Skill</h2>
+
+                </div>
+
+
+                <p>
+                    Class → subject/category → chapter →
+                    download exactly what you need.
+                </p>
+
+            </div>
+
+
+
+            <!-- CLASS TABS -->
+
+            <div class="tabs">
+
+                <button
+                    
+                    data-class="Class 10"
+                >
+                    Class 10
+                </button>
+
+                <button data-class="Class 12">
+                    Class 12
+                </button>
+
+                <button
+                    data-class="JEE"
+                >
+                    JEE
+                </button>
+
+                <button
+                data-class="IMUCET"
+                >
+                IMUCET
+                </button>
+
+                <button
+                data-class="TRADING"
+                >
+                TRADING
+            </button>
+
+            <button
+            data-class="PROGRAMMING LANGUAGE"
+            >
+            PROGRAMMING LANGUAGE
+            </button>
+
+            </div>
+
+
+
+            <!-- LIBRARY -->
+
+            <div class="library">
+
+            
+                <div competition="library"></div>
+
+
+                <!-- CATEGORIES -->
+
+                <aside id="cats"></aside>
+
+
+
+                <!-- CHAPTER / MATERIAL AREA -->
+
+                <div>
+
+                    <div class="toolbar">
+
+                        <b id="current"></b>
+
+                        <input
+                            id="search"
+                            type="text"
+                            placeholder="Search chapter or material..."
+                        >
+
+                    </div>
+
+
+                    <div
+                        id="chapters"
+                        class="chapters"
+                    ></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             FEATURES SECTION
+        ====================================================== -->
+
+        <section class="features">
+
+
+            <!-- FEATURE 01 -->
+
+            <article>
+
+                <small>01</small>
+
+                <h3>Chapter-wise</h3>
+
+                <p>
+                    Clicking any class or category reveals
+                    chapter names and related material.
+                </p>
+
+            </article>
+
+
+
+            <!-- FEATURE 02 -->
+
+            <article>
+
+                <small>02</small>
+
+                <h3>Direct downloads</h3>
+
+                <p>
+                    Students can download the selected
+                    resource to their Sets.
+                </p>
+
+            </article>
+
+
+
+            <!-- FEATURE 03 -->
+
+            <article>
+
+                <small>03</small>
+
+                <h3>Mobile-first</h3>
+
+                <p>
+                    Clean responsive layout for phone,
+                    tablet, Windows & MAC.
+                </p>
+
+            </article>
+
+            <!--IMPORTANT NOTE-->
+
+            <article>
+                <small> 04 </small>
+                <H3> Welcome to ALPHA 🚀</H3>
+                <p>
+                    
+
+Welcome to ALPHA!
+
+We hope this platform will be genuinely helpful for you in your educational journey.
+
+ALPHA is built with the vision of providing useful resources for **all types of education and learning purposes** — whether it is **school education, competitive examinations, skill development, or other learning needs.**
+
+The **ALPHA Team is giving 100% effort** to build and improve this platform and to provide high-quality educational content. We are currently working on adding more **educational resources, skill-based content, study materials, and useful information**.
+
+It may take some time to organize and update everything, but **we promise that more valuable content will be added very soon.** We will continuously work towards providing the educational information and resources you need — all in one place.
+
+Thank you for visiting and supporting ALPHA. ❤️
+Keep learning. Keep growing. Keep moving forward.
+<p></p>
+
+Founder & Co-Founder: @AFFAN_PNJ (ex-jamians & Admin-FX_Community)
+<p></p>
+Mentor: @umarpnj(founder- Alpha UNIVERSITY)
+
+
+
+                </p>
+            </article>
+        </section>
+
+
+
+
+        <!-- =====================================================
+             ALPHA GALLERY (3D)
+             Pictures + descriptions are edited in script.js
+             (search for ALPHA_GALLERY)
+        ====================================================== -->
+
+        <section id="gallery" class="section gallery">
+
+            <div class="head">
+
+                <div>
+                    <label>Meet Our Mentors</label>
+                    <h2>Peoples behind the <em>MINDSET</em></h2>
+                </div>
+
+                <p>
+                   @UMARPNJ, @TOPG TRADER, @AFFAN_PNJ
+                </p>
+
+            </div>
+
+            <div class="g-stage" id="gStage">
+                <div class="g-ring" id="gRing"></div>
+            </div>
+
+            <div class="g-controls">
+                <button type="button" id="gPrev" aria-label="Previous picture">←</button>
+                <div class="g-dots" id="gDots"></div>
+                <button type="button" id="gNext" aria-label="Next picture">→</button>
+            </div>
+
+            <div class="g-info" id="gInfo" aria-live="polite">
+                <small id="gCount"></small>
+                <h3 id="gTitle"></h3>
+                <p id="gDesc"></p>
+            </div>
+
+        </section>
+
+        <!-- =====================================================
+             ABOUT SECTION
+        ====================================================== -->
+
+        <section
+            id="about"
+            class="about section"
+        >
+
+
+            <!-- ABOUT IMAGE -->
+
+            <div class="about-img">
+
+                <img
+                    src="assets/alpha-logo.jpg"
+                    alt="ALPHA Logo"
+                >
+
+            </div>
+
+
+
+            <!-- ABOUT CONTENT -->
+
+            <div>
+
+                <label>ABOUT ALPHA</label>
+
+
+                <h2>
+                    Heyy, This is me
+                    <em>AFFAN_PNJ</em>.<br>
+
+                    WELCOME TO ALPHA series website.
+                </h2>
+
+
+                <p>
+                    I hope this website proves to be useful
+                    and valuable to you. ALPHA_materials is
+                    built as a simple place where students can
+                    discover useful study resources without
+                    wasting time searching everywhere.
+                </p>
+
+
+                <p>
+                    <b>Profession:</b>
+                    Senior Global Financial Market Risk
+                    Assessment &amp; Strategic Capital
+                    Allocation Specialist.
+                </p>
+
+
+                <p>
+                    <b>Coding:</b>
+                    Only for side interest — creating useful
+                    digital projects and experimenting with ideas.
+                </p>
+
+
+                <p>
+                    Thanks for visiting our ALPHA.
+                    Keep learning, keep building,
+                    and make your preparation count.
+                </p>
+
+
+                <p>
+                    <b>ALPHA_series #5</b>
+                </p>
+
+
+                <p>
+                    Before this, 4 useful and helpful projects
+                    have already been successfully deployed by
+                    ALPHA. And this is just the beginning.
+                    More interesting and practical projects
+                    are on the way.
+                </p>
+
+
+                <p>
+                    For collaboration, project ideas, or
+                    anything related to ALPHA, contact
+                    <b>@AFFAN_PNJ</b>
+                </p>
+
+                <p>
+                    <b>
+                    *Designed By @Affan_pnj
+                    </b>
+                </p>
+
+                <p>
+                    <b>
+                    *Founder of ALPHA SERIES PROJECT 
+                    </b>
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             CONTACT SECTION
+        ====================================================== -->
+
+        <section
+            id="contact"
+            class="contact section"
+        >
+
+
+            <!-- CONTACT INTRO -->
+
+            <div>
+
+                <label>CONNECT</label>
+
+                <h2>
+                    For more, contact me.
+                </h2>
+
+                <p>
+                    Questions, suggestions, collaboration
+                    or resource requests — reach out through
+                    the links below.
+                </p>
+
+            </div>
+
+
+
+            <!-- CONTACT LINKS -->
+
+            <div class="links">
+
+
+                <!-- EMAIL -->
+
+                <a href="mailto:shaikhaffan0658@gmail.com">
+
+                    <small>EMAIL</small>
+
+                    <b>
+                        shaikhaffan0658@gmail.com
+                    </b>
+
+                    ↗
+
+                </a>
+
+
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    href="https://www.instagram.com/_affanpnj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <small>INSTAGRAM</small>
+
+                    <b>
+                        @_affanpnj
+                    </b>
+
+                    ↗
+
+                </a>
+
+
+
+                <!-- X / TWITTER -->
+
+                <a
+                    href="https://x.com/IMAFFAN_01"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <small>X / TWITTER</small>
+
+                    <b>
+                        @IMAFFAN_01
+                    </b>
+
+                    ↗
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer>
+
+        © 2026 ALPHA_materials
+
+        <span>
+            ALPHA series
+        </span>
+
+    </footer>
+
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
+
+    <script src="data.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
