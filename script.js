@@ -228,20 +228,20 @@ renderChapters();
 
 const ALPHA_GALLERY = [
     {
-        img: "assets/gallery-1.jpg",
+        img: "/gallery-1.jpg",
         pos: "70% 40%",
         title: "@umarpnj (Founder of ALPHA UNIVERSITY)",
         
         desc: "Umar Punjabi is a trading and finance content creator focused on market analysis, price action, risk management, and trading psychology. His content simplifies complex market concepts and helps aspiring traders develop a more structured, disciplined, and informed approach to trading (also founder of ALPHA UNIVERSITY)."
     },
     {
-        img: "assets/gallery-2.jpg",
+        img: "/gallery-2.jpg",
         pos: "50% 50%",
         title: "@atul shendge (King of Markets & NEWS)",
         desc: "TopG Traders is more than just a trading educator for me \u2014 he is someone who has genuinely influenced the way I see the market. His teachings helped me understand that trading is not about chasing quick profits but about patience, discipline, proper analysis, and continuous learning, also called the King of Markets as well as the NEWS King."
     },
     {
-        img: "assets/gallery-3.jpg",
+        img: "/gallery-3.jpg",
         pos: "45% 35%",
         title: "@AFFAN_PNJ {ex-JAMIANS, FOUNDER OF FX_COMMUNITY}",
         desc: "AFFAN_PNJ is a future cadet and aspiring trader focused on global financial markets, technical analysis, risk management, and strategic capital allocation. He continues to develop his knowledge through market research, observation, and disciplined practice.\n\n@umarpnj, @atulshendge & @affan_pnj \u2014 all are senior global financial market risk assessment & strategic capital allocation specialists. The word \u201cALPHA\u201d is inspired by UmarPNJ\u2019s university and represents a concept that has influenced my journey and mindset."
