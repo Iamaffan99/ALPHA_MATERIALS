@@ -121,17 +121,14 @@ body.locked {
 }
 
 .gate-logo {
-    width: 56px;
-    height: 56px;
-
-    margin-bottom: 16px;
-
-    border-radius: 15px;
-    object-fit: cover;
-
-    transform: translateZ(35px);
-    animation: floatY3 6s ease-in-out infinite;
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    opacity: 1;
+    visibility: visible;
 }
+
 
 @keyframes floatY3 {
     0%, 100% { transform: translateZ(35px) translateY(0); }
