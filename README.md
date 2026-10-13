@@ -48,3 +48,8 @@ If you find ALPHA useful, consider starring ⭐ this repository and sharing it w
 ---
 
 **ALPHA — Study Smarter. Download Faster.**
+
+Contact ALPHA for more useful tools, web, or more helpful college project 
+
+E-mail: xauuaffan01@gmail.com
+Instagram: https://www.instagram.com/_affanpnj
